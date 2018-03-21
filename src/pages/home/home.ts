@@ -11,4 +11,11 @@ export class HomePage {
 
   }
 
+  childFn() {
+  	console.log("Child clicked");
+  }
+
+  parentFn() {
+  	console.log("Parent clicked");
+  }
 }

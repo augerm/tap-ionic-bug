@@ -1,3 +1,20 @@
 page-home {
-
+	#parent {
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: red;
+		width: 500px;
+		height: 500px;
+		z-index: 0;
+	}
+	#child {
+		position: absolute;
+		top: 50;
+		left: 50;
+		background-color: blue;
+		width: 250px;
+		height: 250px;
+		z-index: 10;
+	}
 }
